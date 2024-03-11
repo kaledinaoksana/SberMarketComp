@@ -1,2 +1,4 @@
 .DS_Store
 /als_env
+/figures
+*__pycache__
