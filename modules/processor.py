@@ -35,7 +35,7 @@ def some_ids_preparation_to_als(user_item_matrix):
 def figure_umap_embeddings(model_als, umap_emb, name):
 
     plt.figure(figsize=(10, 7))
-    plt.scatter(umap_emb[:, 0], umap_emb[:, 1], s=10)  # Рассеиваем точки
+    plt.scatter(umap_emb[:, 0], umap_emb[:, 1], s=1)  # Рассеиваем точки
     plt.title(name)  # Заголовок
     plt.xlabel('UMAP Component 1')  # Метка оси X
     plt.ylabel('UMAP Component 2')  # Метка оси Y
